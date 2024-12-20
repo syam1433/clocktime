@@ -29,7 +29,7 @@ function ClockData(){
   return(
 
     <div className=' text-white'>
-        <div className=' flex justify-center items-center h-96 border-2 m-28 text-6xl '>
+        <div className=' flex justify-center items-center h-96 m-28 text-6xl '>
             <p className=' hover:text-red-400 cursor-pointer'>{gettingTime()}</p>
         </div>
     </div>
